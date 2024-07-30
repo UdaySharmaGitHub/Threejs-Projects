@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    overflow: hidden;
+    font-family: "Poppins",sans-serif;
+}
+.webgl{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.nav a{
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+nav{
+    position: relative;
+    z-index: 2;
+    color: White;
+    display: flex;
+    padding: 4vh 8vh;
+    justify-content: space-between;
+    align-items: center ;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+.title{
+    position: absolute;
+    color: white;
+    z-index: 2;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-75%);
+}
